@@ -1,3 +1,6 @@
+package JAVA;
+
+
 // 문자열 k번 반복하기기
 class Solution {
     public String solution(String my_string, int k) {
