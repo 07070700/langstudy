@@ -34,3 +34,17 @@ class Solution {
         return answer
     }
 }
+// 평균값을 구하는 것은 .average()
+// val evenAverage = numbers.filter { it % 2 == 0 }.average() 처럼 필터함수를 이용해 조건으로 나눈다음에 평균도 쓰기가능.
+
+
+class Solution {
+    fun solution(numbers: IntArray): Double {
+        var answer: Double = numbers.average()
+        return answer
+    }
+}
+
+//  numbers.reduce : 왼쪽부터 누적연산
+//numbers.sorted(): 오름차순
+//numbers.sortedDescending(): 내림차순
